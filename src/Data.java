@@ -5,7 +5,7 @@ import java.util.List;
 class Data {
     private Request request = new Request();
 
-    String getData() {
+    String getHtml() {
         String data = null;
         List<String> keys = new ArrayList<>();
         List<String> values = new ArrayList<>();
